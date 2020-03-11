@@ -9,7 +9,17 @@ body {
     color: #666;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* -------------------- HEADINGS AND TYPE */ 
+
+h1,
+h2,
+h3 {
+    font-family: 'Righteous', cursive;
+}
 
 h1 {
     font-size: 40px;
@@ -28,6 +38,13 @@ p {
     color: green;
 }
 /* -------------------- LAYOUTS */ 
+.content {
+
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /* -------------------- HEADER */ 
 
