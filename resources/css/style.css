@@ -40,19 +40,27 @@ p {
 }
 /* -------------------- LAYOUTS */ 
 .content {
-
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-}
 
+    padding-left: 3%;
+    padding-right: 3%;
+
+}
 
 /* -------------------- HEADER */ 
 
+header {
+    background-color: red;
+}
 /* -------------------- NAVIGATION */ 
 
 /* -------------------- FOOTER */ 
 
+footer {
+    background-color: blue;
+}
 /* -------------------- MODULES */
 
 
