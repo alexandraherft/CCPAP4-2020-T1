@@ -14,6 +14,7 @@ body {
 
 img {
     max-width: 100%;
+    height: auto;
 }
 
 /* -------------------- HEADINGS AND TYPE */ 
@@ -42,6 +43,12 @@ p {
     /* wowsers this is broken- why? */
     
 }
+
+.emphasised-text {
+  
+    text-decoration: underline;
+}
+
 /* -------------------- LAYOUTS */ 
 .content {
     max-width: 1000px;
@@ -52,6 +59,8 @@ p {
     padding-right: 3%;
 
 }
+
+
 
 /* -------------------- HEADER */ 
 
@@ -78,7 +87,18 @@ footer {
 }
 /* -------------------- MODULES */
 
+.news-component {
 
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+
+    padding: 3%;
+}
+
+.news-component h2 {
+    color: red
+}
 
 
 
