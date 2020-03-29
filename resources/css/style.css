@@ -49,6 +49,12 @@ p {
     text-decoration: underline;
 }
 
+.section-header {
+    background-color: yellow;
+    padding: 20px 0;
+    text-align: center;
+}
+
 /* -------------------- LAYOUTS */ 
 .content {
     max-width: 1000px;
