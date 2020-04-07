@@ -9,6 +9,9 @@
 
     --alternate-bg-color: #191931;
 
+    --link-colour: rgb(107, 8, 8);
+    --hover-colour: #000;
+
     scroll-behavior: smooth;
 }
 
@@ -39,7 +42,10 @@ body {
     box-sizing: border-box;
 }
 
-img {
+img,
+iframe,
+video,
+audio {
     max-width: 100%;
     height: auto;
 }
@@ -69,6 +75,17 @@ p {
 
     /* wowsers this is broken- why? */
     
+}
+
+a {
+    color: var(--link-colour);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--hover-colour);
+    text-decoration: underline;
+  
 }
 
 .emphasised-text {
@@ -127,6 +144,8 @@ footer {
     padding-bottom: var(--vertical-spacer);
 }
 
+
+
 /* BUTTONS */ 
 
 .back-top a {
@@ -135,6 +154,17 @@ footer {
     padding: var(--padder);
 }
 /* -------------------- MODULES */
+
+main a img {
+    filter:  grayscale(80%);
+
+    transition: .3s;
+}
+
+main a:hover img {
+    filter: unset;
+}
+
 
 .news-component {
     border-width: 1px;
@@ -147,13 +177,15 @@ footer {
 }
 
 .news-component h2 {
-    color: red
+    
 }
 
 .news-component img {
     float: left;
     margin-right: 20px;
 }
+
+
 
 .news-component-offset {
     background-color: #999;
@@ -226,7 +258,28 @@ footer {
 }
 
 
+/* image gallery */ 
 
+.gallery {
+
+}
+
+.gallery-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: var(--vertical-spacer);
+}
+
+.gallery-images img {
+    width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+
+    .gallery-images {
+        grid-template-columns: repeat(3, 1fr);
+    }
+} 
 
 
 
