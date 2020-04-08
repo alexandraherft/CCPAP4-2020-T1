@@ -164,7 +164,6 @@ header a {
 
     .header-text {
         text-align: right;
-
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -175,16 +174,31 @@ header a {
 
 /* -------------------- NAVIGATION */ 
 
-nav {
-    position: sticky;
-    top: 0;
+.navigation {
+    /* position: sticky;
+    top: 0; */
+
+    background-color: var(--alternate-bg-color);
 }
+
+.navigation .content {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+
 /* -------------------- FOOTER */ 
 
 footer {
     background-color: var(--alternate-bg-color);
     padding-top: var(--vertical-spacer);
     padding-bottom: var(--vertical-spacer);
+
+    text-align: center;
+    color: #fff;
 }
 
 
