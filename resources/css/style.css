@@ -44,8 +44,12 @@ body {
 
 img,
 iframe,
-video {
+video,
+audio {
     max-width: 100%;
+}
+
+img {
     height: auto;
 }
 
@@ -80,12 +84,12 @@ p {
 
 a {
     color: var(--link-colour);
-    /* text-decoration: none; */
+    text-decoration: none;
 }
 
 a:hover {
     color: var(--hover-colour);
-    /* text-decoration: underline; */
+    text-decoration: underline;
   
 }
 
