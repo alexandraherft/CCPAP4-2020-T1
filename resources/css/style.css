@@ -24,14 +24,14 @@ html {
 body {
     background-color: var(--main-bg-color);
 
-    /* background-image: url(../images/two-green-cactus-plants.jpg);
+    background-image: url(../images/two-green-cactus-plants.jpg);
     background-repeat: no-repeat;
 
     background-position: 0 0;
 
     background-size: 100%;
 
-    background-attachment: fixed; */
+    background-attachment: fixed;
 
 
     font-family: Arial, Helvetica, sans-serif;
@@ -53,6 +53,10 @@ img {
     height: auto;
 }
 
+
+main .content {
+    background-color: rgba(255,255,255,0.8);
+}
 
 
 /* -------------------- HEADINGS AND TYPE */ 
