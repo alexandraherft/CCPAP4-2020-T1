@@ -44,8 +44,7 @@ body {
 
 img,
 iframe,
-video,
-audio {
+video {
     max-width: 100%;
     height: auto;
 }
